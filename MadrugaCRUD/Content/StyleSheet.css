@@ -1,0 +1,143 @@
+﻿
+.titulo
+{
+	font-weight: bold;
+	font-size: 14px;
+	color: #000000;
+	font-family: Arial;
+}
+
+.Titulo2
+{
+    font-weight: bold;
+    font-size: 12px; /*color: #002b5a;*/
+    color: #306489;
+    font-family: Arial,Verdana;
+}
+
+.InicioTitulo
+{
+	color: #550e04;
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.conteudo
+{
+	font-size: 11px;
+	color: #000000;
+	font-family: Arial;
+}
+
+.conteudo2
+{
+	font-size: 11px;
+	color: #000000;
+	font-family: Arial;
+	border-style: solid;
+	border-width: 1px;
+	width: 90%;
+	border-color: #cccccc;
+}
+
+.IE8Fix 
+{ 
+    z-index: 1000; 
+
+}
+
+.modalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=40);
+}
+
+/********************* GridViews *************************/
+
+.gridHeaderStyle {
+    font-size: 11px;
+    background-color: #00b760;
+    color: #ffffff !important;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+}
+
+.gridRowStyle
+{
+	font-size: 11px;
+	background-color:#ffffff;
+	color: #000000;
+	font-family: Arial;
+}
+
+.gridAlternatingRowStyle
+{
+	font-size: 11px;
+	background-color:#dce1e4;
+	color: #000000;
+	font-family: Arial;
+}
+
+.gridEmptyDataTemplateStyle
+{
+	font-size: 11px;
+	background-color:#ffffff;
+	color: #000000;
+	font-family: Arial;
+	text-align:center;
+	line-height: 50px;
+}
+
+
+.gridPagerStyle
+{
+	font-size: 12px;
+	background-color:#3e0800;
+	color: #ffffff;
+	font-family: Arial;
+	line-height:10px;
+}
+
+.gridBaileCadastro
+{
+    height: 10px;
+    text-align: center;   
+}
+
+/********************* Fim GridViews *************************/
+
+/********************* Panel Endereco *************************/
+
+div.Fade
+{
+    background: #000000;
+    display: none;
+    filter: alpha(opacity=0.6);
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 5000;
+}
+div.Pnl
+{
+    background: #dce1e4;
+    border: solid 1px #8fa3a3;
+    display: none;
+    left: 25%;
+    position: absolute;
+    top: 25%;
+    width: 50%;
+    z-index: 5001;
+    
+    font-size: 11px;
+	font-family: Arial;
+}
+
+/********************* Fim Panel Endereco *************************/
+
+

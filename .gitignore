@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MadrugaCRUD/bin
+/MadrugaCRUD/.vs/MadrugaCRUD
+/MadrugaCRUD/obj/Debug

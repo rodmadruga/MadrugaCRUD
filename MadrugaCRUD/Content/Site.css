@@ -1,0 +1,239 @@
+﻿/* REMOVER ANUNCIO */
+div[onmouseover*="S_ssac"] {
+    display: none !important;
+}
+div[style="opacity: 0.9; z-index: 2147483647; position: fixed; left: 0px; bottom: 0px; height: 65px; right: 0px; display: block; width: 100%; background-color: #202020; margin: 0px; padding: 0px;"] {
+    display: none !important;
+}
+a[href*="somee"] {
+    display: none !important;
+}
+
+@keyframes spinner-border {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-border {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: 0.25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+}
+
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.2em;
+}
+
+.colorGreen {
+    color: green;
+}
+.colorRed {
+    color: red;
+}
+.colorBlue {
+    color: blue;
+}
+.colorCinza {
+    color: #999;
+}
+.colorDourado {
+    color: goldenrod;
+}
+
+.gridHeaderStyle {
+    font-size: 11px;
+    background-color: #00b760;
+    color: #ffffff !important;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+}
+.gridRowStyle {
+    font-size: 11px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial;
+}
+.gridAlternatingRowStyle {
+    font-size: 11px;
+    background-color: #dce1e4;
+    color: #000000;
+    font-family: Arial;
+}
+.gridEmptyDataTemplateStyle {
+    font-size: 11px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial;
+    text-align: center;
+    line-height: 50px;
+}
+.gridPagerStyle {
+    font-size: 12px;
+    background-color: #3e0800;
+    color: #ffffff;
+    font-family: Arial;
+    line-height: 10px;
+}
+
+.bg-green-800 {
+    background-color: #00b760;
+    border-color: #00b760;
+    color: #fff;
+}
+.confirm {
+    background-color: #00b760 !important;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+    cursor: pointer !important;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    background-color: #00b760;
+    color: #fff;
+}
+.box-shadow {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background-color: #fff;
+    background-clip: border-box;
+}
+.pricing-card-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.afastarCampos {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ApostaSurebet3 {
+    width: 100% !important;
+}
+
+.btnAzulRedondo {
+    background-color: #42A5F5;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+.btnAzulRedondo:hover {
+    color: #fff !important;
+}
+
+.btnVermelhoRedondo {
+    background-color: #d33;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+.btnVermelhoRedondo:hover {
+    color: #fff !important;
+}
+
+.checkboxlistformat label {
+    margin-left: 10px;
+}
+.row-spacing {
+    margin-top: 20px;
+}
+
+a.support-text-show-pass {
+    color: #007bff !important;
+    font-size: .7rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+.ra {
+    font-size: 1rem;
+}
+
+input[name="PersonagemAlvo"]:checked + label {
+    border-color: red !important;
+}
+
+input[name="PersonagemAlvoBot"]:checked + label {
+    border-color: red !important;
+}
+
+.blinkgoldenrodblack {
+    animation-duration: 1200ms;
+    animation-name: blinkgoldenrodblack;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation: blinkgoldenrodblack 1200ms infinite;
+}
+
+@keyframes blinkgoldenrodblack {
+    from {
+        color: goldenrod;
+    }
+
+    to {
+        color: black;
+    }
+}
+
+@-webkit-keyframes blinkgoldenrodblack {
+    from {
+        color: goldenrod;
+    }
+
+    to {
+        color: black;
+    }
+}
+
+
+.tooltip-inner {
+    min-width: 100px;
+    max-width: 100%;
+}
+
+.pagination {
+    border-radius: unset;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
